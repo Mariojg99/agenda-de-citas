@@ -1,0 +1,80 @@
+@import '../config.scss';
+
+.navbar {
+    background: linear-gradient(to right, $green, $darkGreen);
+
+    .navbar_container {
+        width: 95%;
+        margin-inline: auto;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+
+        i {
+            color: $light;
+            font-size: 20px;
+        }
+
+        img {
+            width: 50px;
+            margin-inline: 15px;
+        }
+
+        span {
+            color: $light;
+            font-size: 20px;
+        }
+
+    }
+}
+
+.nav_menu {
+    background: linear-gradient($green, $darkGreen);
+    width: 200px;
+    height: calc(100vh - 66px);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 66px;
+    left: -100%;
+    transition: 850ms;
+
+    &.active {
+        left: 0;
+        transition: 350ms;
+    }
+
+    .nav_menu_items {
+        padding: 0;
+        list-style: none;
+        width: 80%;
+
+        #navbar_toggle {
+            text-align: end;
+            font-size: 30px;
+            &:hover {
+                background-color: none;
+            }
+        }
+
+        .item {
+            padding: 10px;
+            border-radius: 1rem;
+            align-items: center;
+            &:hover {
+                background-color: $darkGreen;
+            }
+
+            .menu_bars {
+                font-size: 20px;
+                color: $light;
+                text-decoration: none;
+                margin-inline: 5px;
+                display: flex;
+                align-items: center;
+                
+            }
+        }
+    }
+
+}

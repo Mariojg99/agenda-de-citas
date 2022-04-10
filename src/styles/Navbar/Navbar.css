@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Questrial', sans-serif !important;
+  background-color: #dadada !important;
+}
+
+.navbar {
+  background: -webkit-gradient(linear, left top, right top, from(#00be39), to(#066e25));
+  background: linear-gradient(to right, #00be39, #066e25);
+}
+
+.navbar .navbar_container {
+  width: 95%;
+  margin-inline: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+.navbar .navbar_container i {
+  color: #fefefe;
+  font-size: 20px;
+}
+
+.navbar .navbar_container img {
+  width: 50px;
+  margin-inline: 15px;
+}
+
+.navbar .navbar_container span {
+  color: #fefefe;
+  font-size: 20px;
+}
+
+.nav_menu {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00be39), to(#066e25));
+  background: linear-gradient(#00be39, #066e25);
+  width: 200px;
+  height: calc(100vh - 66px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 66px;
+  left: -100%;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+}
+
+.nav_menu.active {
+  left: 0;
+  -webkit-transition: 350ms;
+  transition: 350ms;
+}
+
+.nav_menu .nav_menu_items {
+  padding: 0;
+  list-style: none;
+  width: 80%;
+}
+
+.nav_menu .nav_menu_items #navbar_toggle {
+  text-align: end;
+  font-size: 30px;
+}
+
+.nav_menu .nav_menu_items #navbar_toggle:hover {
+  background-color: none;
+}
+
+.nav_menu .nav_menu_items .item {
+  padding: 10px;
+  border-radius: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_menu .nav_menu_items .item:hover {
+  background-color: #066e25;
+}
+
+.nav_menu .nav_menu_items .item .menu_bars {
+  font-size: 20px;
+  color: #fefefe;
+  text-decoration: none;
+  margin-inline: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Navbar.css.map */

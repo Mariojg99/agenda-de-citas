@@ -1,0 +1,20 @@
+// colores
+$darkPurple: #31246a;
+$lightPurple: #8e278e;
+$light: #fefefe;
+$lightGray: #dadada;
+$green: #00be39;
+$darkGreen: #066e25;
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Questrial', sans-serif !important;
+    background-color: $lightGray !important;
+}
