@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: 'Questrial', sans-serif !important;
-  background-color: #dadada !important;
+  background-color: #e4e2e2 !important;
 }
 
 .navbar {
@@ -40,6 +40,10 @@ body {
 .navbar .navbar_container span {
   color: #fefefe;
   font-size: 20px;
+}
+
+.menu_icon {
+  cursor: pointer;
 }
 
 .nav_menu {

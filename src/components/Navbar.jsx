@@ -16,9 +16,7 @@ const Navbar = () => {
 
             <header className='navbar'>
                 <div className="navbar_container">
-                    <a href='#' className='button_toggle'>
-                        <FiMenu className='text-light' onClick={showSidebar} />
-                    </a>
+                        <FiMenu className='text-light menu_icon' onClick={showSidebar} />
                     <img src="https://res.cloudinary.com/karma09-jm/image/upload/v1649563332/Varios/calendario_pncpzm.png" alt="logo" />
                     <span>Agenda de citas</span>
                     <div className="ms-auto">
@@ -31,9 +29,7 @@ const Navbar = () => {
             <nav className={sidebar ? 'nav_menu active' : 'nav_menu'}>
                 <ul className='nav_menu_items'>
                     <li id='navbar_toggle' onClick={showSidebar}>
-                        <a href='#' className='menu_bars'>
-                            <FiX className='text-light' />
-                        </a>
+                            <FiX className='text-light menu_icon' />
                     </li>
 
                     <li className='item'>

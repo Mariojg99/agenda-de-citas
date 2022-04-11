@@ -7,7 +7,11 @@
 body {
   margin: 0;
   font-family: 'Questrial', sans-serif !important;
-  background-color: #dadada !important;
+  background-color: #e4e2e2 !important;
+}
+
+.citas_form {
+  width: 500px;
 }
 
 .input_container {
@@ -33,7 +37,7 @@ body {
 
 .input_container input:focus {
   outline: none;
-  border: 3px solid;
+  border: 2px solid;
   border-color: #066e25;
 }
 
