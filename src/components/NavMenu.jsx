@@ -5,7 +5,7 @@ import '../styles/Navbar/Navbar.css';
 import { FiMenu, FiX } from "react-icons/fi";
 import { MdHome, MdAssignment } from "react-icons/md";
 
-const Navbar = () => {
+const NavMenu = () => {
     const [sidebar, setSidebar] = useState(false);
 
     const showSidebar = () => setSidebar(!sidebar);
@@ -50,4 +50,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavMenu;
